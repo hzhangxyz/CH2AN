@@ -1,7 +1,11 @@
 # CH2AN
+
 Chinese Numberals To Arabic Numerals
 
+Input the Chinese numberals and press Enter
+
 # Sample
+
 - 四
 - 十二
 - 六七
