@@ -16,7 +16,7 @@ function core(n){
         m = 0
         p.forEach(function(j){
             var t = core(j)
-            if(m!=0 && t<10 && !j.indexOf("零"))
+            if(m!=0 && t<10 && j.indexOf("零"))
                 t *= 10**(M[i]-1)
             m = m*10**M[i]+t
             if(!m)
