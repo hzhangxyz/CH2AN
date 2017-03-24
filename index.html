@@ -1,4 +1,5 @@
 <title>Chinese Numberals To Arabic Numerals</title>
+<body onkeydown="document.getElementById('ch').focus()">
 <input style="width:100%;" id=ch onkeydown="check(event);"></input>
 <hr/>
 <div id=di ></div>
@@ -43,3 +44,4 @@ function check(event){
         document.getElementById("di").innerHTML = main(document.getElementById("ch").value)
 }
 </script>
+</body>
